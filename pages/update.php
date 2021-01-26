@@ -6,7 +6,7 @@
     
     // データベース接続オブジェクトを取得
     $pdo = new PDO($dsn, $user, $password);
-    // 実行するSQLを設定
+    // 実行するSQLを設定 
     $sql = "select * from product where id = ?";
     // SQL実行オブジェクトを取得
     $pstmt = $pdo->prepare($sql);

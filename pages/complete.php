@@ -7,7 +7,7 @@
     isset($_POST["id"]) ? $id = (int)$_POST["id"] : $id = "";
 
     $dsn = "mysql:host=localhost;dbname=productdb;charset=utf8";
-    $user = "productdb_admin";
+    $user = "productdb_admin"; 
     $password = "admin123";
     
     // データベース接続オブジェクトを取得

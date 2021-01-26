@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>商品データベース</title>
 	<link rel="stylesheet" href="../assets/css/style.css" />
-</head>
+</head> 
 <body>
 <header>
 	<h1>商品データベース</h1>

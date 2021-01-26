@@ -10,7 +10,7 @@
     $user = "productdb_admin";
     $password = "admin123";
     
-    // データベース接続オブジェクトを取得
+    // データベース接続オブジェクトを取得 
     $pdo = new PDO($dsn, $user, $password);
     // 実行するSQLを設定
     $sql = "select max(id) as max from product";

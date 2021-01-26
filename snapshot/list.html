@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>商品データベース</title>
+	<title>商品データベース</title> 
 	<link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
